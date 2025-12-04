@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import {DatePipe, UpperCasePipe} from '@angular/common';
-import {LeetspeakPipe} from '../leetspeak-pipe';
+import {LeetspeakPipe} from './leetspeak-pipe';
 
 @Component({
   selector: 'app-pipes',
@@ -11,5 +10,4 @@ import {LeetspeakPipe} from '../leetspeak-pipe';
   styleUrl: './pipes.css'
 })
 export class Pipes {
-  today: number = Date.now();
 }
